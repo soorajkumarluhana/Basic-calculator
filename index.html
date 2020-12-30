@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Basic Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="main">
+    <H1  class="calculatortext">Calculator</H1>
+    <div>
+     <input type="text" class="input" id="result">   
+    </div>
+   <div class="buttons">
+    <div>
+        <button class="buttonsetting1" onclick="clearResult('')">C</button>
+        <button class="buttonsetting1" onclick="getnumber('/')">÷</button>
+    </div>
+    <div>
+        <button class="buttonsetting2" onclick="getnumber('7')">7</button>
+        <button class="buttonsetting2" onclick="getnumber('8')">8</button>
+        <button class="buttonsetting2" onclick="getnumber('9')">9</button>
+        <button class="buttonsetting2" onclick="getnumber('*')">X</button>
+    </div>
+    
+    <div>
+        <button class="buttonsetting2" onclick="getnumber('4')">4</button>
+        <button class="buttonsetting2" onclick="getnumber('5')">5</button>
+        <button class="buttonsetting2" onclick="getnumber('6')">6</button>
+        <button class="buttonsetting2" onclick="getnumber('-')">-</button>
+    </div>
+    <div>
+        <button class="buttonsetting2" onclick="getnumber('1')">1</button>
+        <button class="buttonsetting2" onclick="getnumber('2')">2</button>
+        <button class="buttonsetting2" onclick="getnumber('3')">3</button>
+        <button class="buttonsetting2" onclick="getnumber('+')">+</button>
+    </div>
+ <button class="buttonsetting3" onclick="getnumber('0')">0</button>
+ <button class="buttonsetting3" onclick="getresult('')">=</button>
+</div>
+</div>
+
+
+
+</body>
+<script src="app.js" ></script>
+</html>

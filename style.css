@@ -1,0 +1,39 @@
+.main{
+    border: 3px solid  black;
+    width: 350px;
+    margin: 200px auto;
+}
+.calculatortext{
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+    font-weight: bolder !important;
+    
+}
+
+.input{
+    width: 343px;
+    height: 35px;
+    font-size: 30px;
+}
+.buttons{
+    border: 4px solid black
+}
+
+.buttonsetting1{
+    width: 165px;
+    height: 30px;
+    margin: 2px 2px 2px 2px;
+}
+
+.buttonsetting2{
+    width: 78px;
+    height: 30px;
+    margin: 2px 2px 2px 2px;
+}
+
+.buttonsetting3{
+    margin: 2px 2px 2px 2px;
+    width: 165px;
+    height: 30px;
+}
